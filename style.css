@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color:hsl(0,0%,20%);/*Grey*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: hsl(0, 0%, 8%);/*OffBlack*/
+    height:800px;
+    width: 1295px;
+    margin-top:40px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.bio{
+    background-color:hsl(0, 0%, 12%);/*DarkGrey*/
+    width: 350px;
+    height:560px;
+    margin-left: 200px;
+    margin-top: 160px; 
+    border-radius: 10px;
+    margin:0 auto;
+    padding-top:40px;
+    text-align: center;   
+}
+
+.profile-pic{
+    width: 88px;
+    height: 88px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    margin:0 auto;
+    display: flex;
+    justify-content: center; 
+    align-items: flex; 
+    background-size: cover;
+    background-position: center top;   
+    margin-bottom: 1.25rem;
+}
+
+h2{
+    color:hsl(0,0%,100%);/*White*/
+    padding-bottom: 0.4rem; 
+}
+
+h4{
+    color:hsl(75, 94%, 57%);/*Green*/   
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p{
+    color:hsl(0, 0%, 100%);/*White*/
+    font-size: 14px;
+    padding-top: 0.2rem;    
+}
+
+.social-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    list-style-type: none;
+}
+
+.social-button {
+    width:280px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    background-color:hsl(0,0%,20%);/*Grey*/
+    color:hsl(0,0%,100%);/*White*/
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.15s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.social-button:hover {
+    background-color: hsl(75, 94%, 57%);/*Green*/
+    border-radius: 10px;
+}
